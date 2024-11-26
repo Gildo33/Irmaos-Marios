@@ -1,0 +1,294 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+p{
+    color: #e7e6eefa;
+    font-size: 20px;
+}
+
+
+button {
+    color: white;
+    background: rgb(233, 63, 86);
+    width: 175px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.Logo {
+    width: 200px ;
+    height: 140px ;
+    margin-bottom: 20px;
+}
+
+body {
+    
+    height: 100vh;
+    
+}
+
+.Caixa-Geral {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    height: 100vh;
+
+}
+
+
+.Irmãos-Marios
+{
+    height: 500px;
+}
+
+.container-Left
+
+{
+    width: 50%;
+}
+
+
+.Video-Mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    
+
+    }
+
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.Fundo {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 10%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+
+
+.watts-zap {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    right: 60px;
+    top: 30px;
+}
+
+.menu-superior  {
+    display: flex;
+    align-items: center;
+    gap: 20px;             /*Distanciamento entre os itens.*/
+    margin: 30px /*Se aplicando nos quatro cantos*/;
+
+}
+
+.menu-superior img {
+    height: 60px;
+
+} 
+
+ .menu-superior a {
+    color: hsl(168, 10%, 90%);
+    font-size: 24px;
+    font-weight: 600px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: red;
+    transition: 2s ease-in-out;
+}
+
+button:hover {
+    color: black;
+    background: white;
+    transition: 2s ease-in-out;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: white;
+    top: 150px;
+    left: -210px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 5PX;
+    transition: left 2s ease-in-out;
+    
+    
+}
+
+.Botão-Formulario {
+    color: whitesmoke;
+    background: red;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input {
+    height: 30PX;
+    border-radius: 5PX;
+    padding-left: 5PX;
+}
+
+textarea {
+    height: 75PX;
+    border-radius: 5PX;
+    padding-left: 5PX;
+}
+
+.Mascara-Formulario {
+    visibility: hidden;  /* Só aparece quando chamado */
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 10%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility  2s ease-in-out;
+    
+}
+
+@media screen and (max-width: 1100px){   /*passa a utilizar os stlios a aprtir de 1100px pra baixo*/
+    p {
+        display: none;  /*Elimina o paragrafo*/
+    }
+
+    
+   .Caixa-Geral {
+    flex-direction: column; /*Todos os intens em coluna*/
+    padding: 10px;
+   }
+
+   .container-Left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .Irmãos-Marios {
+
+     height: 400px;
+}
+
+.watts-zap {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    right: 7px;
+    top: 780px;
+    
+}
+
+.Cabeçalho {
+    display: none;  /* some*/
+
+}
+
+.menu-superior {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-superior a  
+  {
+    font-size: 14px;
+    
+}
+
+
+
+}
+    
+
+
+
+
+/*
+a {
+    position: fixed;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 29.26px;
+    text-align: left;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: hsl(168, 10%, 90%);
+    margin-right: 29px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.Cabeçalho{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top:20px ;
+    left: 20px;
+}
+
+
+
+*/
+
+/*
+Inicio do formulario:
+    top: 150px;
+    left: -210px; 
+     
+
+Fim do formulario:
+    top: 150px;
+    left: 40%; 
+*/
+
+
+
+
+
+
+
+
+
+
+/* a {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 29.26px;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    color: #989D9C;
+    margin-right: 29px;
+    cursor: pointer;
+}
+
+*/
+
+
+
