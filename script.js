@@ -13,7 +13,7 @@ function Cliqueaqui() {
 }
 
 function Tela() {
-    form.style.left ="-210px"
+    form.style.left ="-240px"
 
 }
 
